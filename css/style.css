@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Avenir Next Condensed';
+  font-family:'Georgia';
   src: url('https://s3.amazonaws.com/learn-verified/Avenir+Next+Condensed.ttc');
 }
 
@@ -26,6 +26,7 @@ body {
 }
 
 h1 {
+
   font-size: 12.25em;
   line-height: 1em;
   letter-spacing: .03em;
@@ -39,17 +40,43 @@ h2 {
   margin-bottom: 2px;
 }
 
-h3 {
+ h3 {
   font-weight: normal;
-  letter-spacing: .3em;
+  letter-spacing: .2em;
   margin-bottom: 18px;
   line-height: 1em;
 }
 
+.site_1{
+  font-weight: normal;
+  letter-spacing: .2em;
+  margin-left:20px;
+  margin-top: 10px;
+  line-height: 1em;
+  float:left;
+}
+
+  .site_2{
+  font-weight: normal;
+  letter-spacing: .2em;
+  margin-top: -5%;
+  line-height: 1em;
+  float:right;
+  clear:both;
+}
+
 h4 {
   font-weight: normal;
-  font-size: .7em;
-  letter-spacing: .4em;
+  font-size: .6em;
+  letter-spacing: .1em;
+  margin-bottom: 9px;
+  line-height: 1em;
+}
+
+#singer {
+  font-weight: normal;
+  font-size: .8em;
+  letter-spacing: .2em;
   margin-bottom: 9px;
   line-height: 1em;
 }
@@ -59,6 +86,7 @@ p {
   line-height: 1.8em;
   letter-spacing: .103em;
   margin-bottom: 15px;
+
 }
 
 span {
@@ -71,10 +99,18 @@ span {
 }
 
 img {
-  display: inline-block;
-  margin: 0 40px;
+  display:  inline;
+  margin-right: 40%;
+
+
+  
 }
 
+ #im2{
+   margin-bottom:10px;
+  margin-left: 35%;
+ background-color:white;
+ }
 .wrapper {
   width: 800px;
   margin: 0 auto;
